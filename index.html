@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pacs Dcm4chee Arc con OHIF</title>
+    <title>Sergio Estevez Dicom</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -19,7 +19,7 @@
             background: #fff;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
-        h1, h2 {
+        h1, h2, h3 {
             color: #333;
         }
         p {
@@ -29,6 +29,23 @@
             text-align: center;
             margin: 20px 0;
         }
+        .blog-post {
+            margin-bottom: 40px;
+        }
+        .blog-post h2 {
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 10px;
+        }
+        .blog-post p {
+            margin-bottom: 20px;
+        }
+        .blog-post a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+        .blog-post a:hover {
+            text-decoration: underline;
+        }
     </style>
     <!-- Código de AdSense -->
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3291128506679894"
@@ -36,10 +53,10 @@
 </head>
 <body>
     <div class="container">
-        <h1>Pacs Dcm4chee Arc con OHIF</h1>
-        <p>Este es un ejemplo de cómo integrar Google AdSense en un sitio web.</p>
+        <h1>Integracion de Sistemas Pacs Dicom Dcm4chee</h1>
+        <p>Integracion de Sistemas Pacs Dicom Dcm4chee y Orthanc, con el Visor OHIF.</p>
 
-        <!-- Primer AdSense Ad Unit -->
+        <!-- AdSense Ad Unit -->
         <div class="adsense">
             <script>
                 (adsbygoogle = window.adsbygoogle || []).push({
@@ -49,10 +66,34 @@
             </script>
         </div>
 
-        <h2>Otros Contenidos</h2>
-        <p>Puedes añadir más contenido aquí.</p>
+        <h2>Blog</h2>
 
-        <!-- Segundo AdSense Ad Unit -->
+        <!-- Blog Post: Dcm4chee Arc Light Secure Version -->
+        <div class="blog-post">
+            <h2>Run Secured Archive Services on a Single Host with Dcm4chee Arc Light</h2>
+            <p>Dcm4chee Arc Light is a powerful PACS (Picture Archiving and Communication System) that provides a secure and efficient way to manage medical imaging data. In this blog post, we will guide you through the process of running secured archive services on a single host using Dcm4chee Arc Light.</p>
+            <p>For detailed instructions, you can refer to the official <a href="https://github.com/dcm4che/dcm4chee-arc-light/wiki/Run-secured-archive-services-on-a-single-host" target="_blank">Dcm4chee Arc Light documentation</a>.</p>
+            <h3>Prerequisites</h3>
+            <p>Before you begin, ensure you have the following:</p>
+            <ul>
+                <li>Java Development Kit (JDK) installed on your host machine.</li>
+                <li>Dcm4chee Arc Light binary distribution downloaded from the <a href="https://github.com/dcm4che/dcm4chee-arc-light/releases" target="_blank">releases page</a>.</li>
+                <li>Basic understanding of Docker and Docker Compose.</li>
+            </ul>
+            <h3>Steps to Run Secured Archive Services</h3>
+            <ol>
+                <li><strong>Extract the Binary Distribution:</strong> Extract the downloaded Dcm4chee Arc Light binary distribution to a directory of your choice.</li>
+                <li><strong>Configure Docker Compose:</strong> Navigate to the `docker` directory within the extracted files and open the `docker-compose.yml` file. Modify the configuration as needed for your environment.</li>
+                <li><strong>Start the Services:</strong> Run the following command to start all the necessary services:</li>
+            </ol>
+            <pre><code>docker-compose up -d</code></pre>
+            <p>This command will start the Dcm4chee Arc Light services in detached mode.</p>
+            <h3>Accessing the Services</h3>
+            <p>Once the services are up and running, you can access the Dcm4chee Arc Light web interface by opening your web browser and navigating to <code>http://localhost:8080</code>.</p>
+            <p>For more detailed information and advanced configurations, please refer to the <a href="https://github.com/dcm4che/dcm4chee-arc-light/wiki/Run-secured-archive-services-on-a-single-host" target="_blank">official documentation</a>.</p>
+        </div>
+
+        <!-- AdSense Ad Unit -->
         <div class="adsense">
             <script>
                 (adsbygoogle = window.adsbygoogle || []).push({
@@ -64,4 +105,3 @@
     </div>
 </body>
 </html>
-
