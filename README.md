@@ -1,4 +1,3 @@
-# sergio-estevez-monsalve.github.io
 <h1>Hi 👋, I'm Sergio Estevez</h1>
 <p>A front-end and back-end developer passionate about DICOM medical imaging systems, PACS system integrator Dcm4chee Arc Light, implementer of the OHIF DICOM web viewer..</p>
 <h2>🚀 Languages and Tools I Use</h2>
